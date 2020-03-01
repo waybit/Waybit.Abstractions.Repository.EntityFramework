@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        
+        <PackageId>Waybit.Abstractions.Repository.EntityFramework</PackageId>
+        <Authors>sankovlex</Authors>
+        <PackageLicenseUrl>https://github.com/waybit/Waybit.Abstractions.Repository.EntityFramework/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageProjectUrl>https://github.com/waybit/Waybit.Abstractions.Repository.EntityFramework.git</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/waybit/Waybit.Abstractions.Repository.EntityFramework.git</RepositoryUrl>
+        <PackageTags>ddd, repository, entityframework</PackageTags>
+        <Copyright>Waybit © 2020 | https://waybit.com</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="EntityFramework" Version="6.4.0" />
+      <PackageReference Include="Waybit.Abstractions.Domain" Version="1.0.1" />
+    </ItemGroup>
+
+</Project>
